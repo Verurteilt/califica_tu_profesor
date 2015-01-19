@@ -90,3 +90,7 @@ STATIC_URL = '/static/'
 
 ## CUSTOM USER ####
 AUTH_USER_MODEL = "users.User"
+
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
